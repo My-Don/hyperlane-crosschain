@@ -396,7 +396,7 @@ Done adding warp route at filesystem registry
 
 ## 14）授权给warp_router
 ```
-root@ubuntu:~/hyperlane-registry# export HYP_KEY='52243d8e2de333653d101753c402d369a368ccb5601b40e29b541dc9364a9c2e'
+root@ubuntu:~/hyperlane-registry# export HYP_KEY='私钥不带0x'
 root@ubuntu:~/hyperlane-registry# cast send 0x55d398326f99059fF775485246999027B3197955 \
   "approve(address,uint256)" \
   0x959bEa75eB8247917Ea4602B0bE0043885834f57 \
